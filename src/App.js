@@ -4,7 +4,7 @@ const Game = () => {
   return (
     <>
       <div className="progress">
-        <div>div</div>
+        <div style={{ width: "50%" }} className="progress__inner"></div>
       </div>
       <h1>h1h1h1h1h</h1>
       <ul>
