@@ -4,19 +4,23 @@ const Game = () => {
   return (
     <>
       <div>
-        <div></div>
+        <div>div</div>
       </div>
-      <h1></h1>
+      <h1>h1h1h1h1h</h1>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
       </ul>
     </>
   );
 };
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Game />
+    </div>
+  );
 }
 
 export default App;
