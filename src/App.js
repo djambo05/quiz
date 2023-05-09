@@ -3,7 +3,7 @@ import "./index.scss";
 const Game = () => {
   return (
     <>
-      <div>
+      <div className="progress">
         <div>div</div>
       </div>
       <h1>h1h1h1h1h</h1>
