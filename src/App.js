@@ -25,6 +25,15 @@ const questions = [
     correct: 2,
   },
 ];
+const Result = () => {
+  return (
+    <div className="result">
+      <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
+      <h2>Вы отгадали 3 ответа из 10</h2>
+      <button>Попробовать снова</button>
+    </div>
+  );
+};
 const Game = () => {
   return (
     <>
@@ -43,7 +52,8 @@ const Game = () => {
 function App() {
   return (
     <div className="App">
-      <Game />
+      {/* <Game /> */}
+      <Result />
     </div>
   );
 }
